@@ -1,0 +1,21 @@
+
+/*.card{*/
+/*    border: none;*/
+/*}*/
+.card-img-top .caption-full{
+    padding: 9px;
+}
+.delete-form {
+        display: inline;
+}
+
+.form-style {
+    width: 90%;
+    margin: 20px auto;
+}
+/* Google Maps */
+#map {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+}

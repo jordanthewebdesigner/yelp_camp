@@ -1,0 +1,39 @@
+<% include ./partials/header %>
+<h1 class="text-center">Sign Up!</h1>
+<div class="row">    
+    <div class="col-sm-10 col-md-6 col-lg-4 form-style">
+<form action="/register" method="post">
+    <div class="form-group">
+    <input class="form-control" type="text" name="username" placeholder="Username">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="password" name="password" placeholder="Password">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="avatar" placeholder="Avatar URL">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="firstName" placeholder="First name">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="lastName" placeholder="Last name">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="email" name="email" placeholder="my_name@example.com">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="bio" placeholder="Enter bio">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="adminCode" placeholder="Admin code(for admin use only)">
+    </div>
+    <div class="form-group">
+          <button class="btn btn-lg btn-primary btn-block">Sign Up</button>
+        </div>
+</form>
+ <a href="/campgrounds">Back To Campgrounds</a>
+    </div>  
+
+  </div>
+
+<% include ./partials/footer %>
