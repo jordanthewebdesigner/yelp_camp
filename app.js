@@ -49,7 +49,7 @@ app.use(indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
-app.listen(process.env.PORT, function function_name(argument) {
+app.listen(process.env.PORT || '8080', function function_name(argument) {
     console.log("YelpCamp Server Has Started!");
     // console.log(process.env);
 })
