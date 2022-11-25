@@ -13,6 +13,7 @@ var options = {
  
 var geocoder = NodeGeocoder(options);
 
+
 // INDEX 
 router.get("/", function(req, res){     
                        Campground.find({}, function(err, allCampgrounds){
